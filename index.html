@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- head info -->
+	<head>
+		<!-- encoding -->
+		<meta charset="UTF-8">
+		<!-- link to stylesheet file -->
+		<link rel="stylesheet" href="index_stylesheet.css">
+		<!-- info on the browser tab -->
+		<title>Интернет-зоомагазин</title>
+	</head>
+	<body>
+		<!-- page header block -->
+		<div class="page_header">
+			<!-- logo block -->
+			<div class="logo">
+				<img class="logo_image" src="logo.png" alt="logo" heigh="200" width="200">
+			</div>
+			<!--  company name block -->
+			<div class="company_name">
+				<p><font size=7 color="white" face="Comic Sans MS"><strong>Лисья нора</strong></font></p>
+			</div>
+			<!-- banner block -->
+			<div class="banner">
+				<p><font height=10px color="white"><strong>Назовите продавцу промокод "Четыре лапы" и получите скидку в 10%. Торопитесь! Предложение ограничено!</strong></font></p>
+			</div>
+		</div>
+		<!-- main block -->
+		<div class="main">
+			<!-- sidebar block -->
+			<div class="left_sidebar">
+				<!-- navigation menu block -->
+				<ul class="navbar">
+					<li><a href="404.html">Новинки!</a></li>
+					<li><a href="404.html">Кошки</a></li>
+					<li><a href="404.html">Собаки</a></li>
+					<li><a href="404.html">Другие питомцы</a></li>
+					<li><a href="404.html">Ветаптека</a></li>
+					<li><a href="404.html">Акции</a></li>
+					<li><a href="404.html">Магазины</a></li>
+
+<img class="work" src="work.png" alt="dog" heigh="200" width="200">
+			</div>
+			<!-- company info block -->
+			<div class="company_info">
+				<!-- upper blocks of company info block -->
+				<div class="up_side_info">
+					<!-- main info block of upper block -->
+					<div class="main_info">
+						<h3>О нас</h3>
+						<p>
+							Добро пожаловать на наш сайт! Он создан при поддержке моей любимой собаки :)
+						</p>
+
+						<p>
+							У нас вы можете заказать товары для своих любимцев. Мы закупаемся в Китае, а потом продаём по цене в два раза выше. Будем рады, если вы закажете у нас, а не полезете на алиэкспресс искать аналогичные товары по более низким ценам!
+						</p>
+						<p>
+							С любовью к деньгам, я :з
+						</p>
+					</div>
+					<!-- workers block of upper block -->
+					<div class="workers">
+						<h3>Руководство компании</h3>
+						<table>
+							
+							<tr>
+								<th>ФИО</th>
+								<th>Должность</th>
+								<th>Телефон</th>
+							</tr>
+							<tr>
+								<td>Иванов Г.Т.</td>
+								<td>Директор</td>
+								<td>XXXX</td>
+							</tr>
+							<tr>
+								<td>Петров А.И.</td>
+								<td>Зам.директора</td>
+								<td>XXXX</td>
+							</tr>
+							<tr>
+								<td>Сидоров Ф.В.</td>
+								<td>Гл.бухгалтер</td>
+								<td>XXXX</td>
+							</tr>
+						</table>
+						<p>Горячая линия: <strong>8-(495)-XXX-XX-ХX</strong></p>
+					</div>
+				</div>
+				<!-- lower blocks of  down side block -->
+				<div class="down_side_info">
+					<!-- product block of down side block -->
+					<div class="product">
+						<h3>Продукция:</h3>
+						<table>
+							<tr>
+								<th>Название</th>
+								<th>Цена, руб</th>
+							</tr>
+							<tr>
+								<th>Корм Педегри 10 кг</th>
+								<th>15000</th>
+
+							</tr>
+							<tr>
+								<th>Игрушка "мячик"</th>
+								<th>100</th>
+
+							</tr>
+							<tr>
+								<th>Клетка для хомячка</th>
+								<th>1500</th>
+
+							</tr>
+							<tr>
+								<th>Шлейка для кошки</th>
+								<th>5446</th>
+
+							</tr>
+							<tr>
+								<th>Наполнитель для лотка</th>
+								<th>3500</th>
+
+							</tr>
+						</table>
+					</div>
+					<!-- address block of down side block -->
+					<div class="address">
+						<h3>Наш адрес</h3>
+						<p>
+							Вы можете найти нас по адресу: г. Москва, Рязанский проспект, 99с4.
+						</p>
+						<p>
+							Ждём вас, ваших питомцев и ваши деньги. uwu
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<img class="dog" src="dog.gif" alt="dog" heigh="200" width="1500">
+
+		<!-- footer block -->
+		<div class="footer">
+			<!-- counter block (doesn't work, need to upload to the server) of footer block -->
+			<div class="counter">
+				<p>счётчик не работает</p>
+			</div>
+			<!-- about block of footer block -->
+			<div class="about">
+				<p>© Самышко П.О.</p>
+			</div>
+			<!-- clock block of footer block -->
+			<!-- link for clock:https://learn.javascript.ru/task/clock-setinterval -->
+			<div id="clock">
+			    <span class="hour">hh</span>:<span class="min">mm</span>:<span class="sec">ss</span>
+			  </div>
+			  <!-- javascript script for clock block -->
+			  <script>
+			    let timerId;
+
+			    function update() {
+			      let clock = document.getElementById('clock');
+			      let date = new Date();
+
+			      let hours = date.getHours();
+			      if (hours < 10) hours = '0' + hours;
+			      clock.children[0].innerHTML = hours;
+
+			      let minutes = date.getMinutes();
+			      if (minutes < 10) minutes = '0' + minutes;
+			      clock.children[1].innerHTML = minutes;
+
+			      let seconds = date.getSeconds();
+			      if (seconds < 10) seconds = '0' + seconds;
+			      clock.children[2].innerHTML = seconds;
+			    }
+
+			    function clockStart() {
+			      timerId = setInterval(update, 1000);
+			      update();
+			    }
+
+			    function clockStop() {
+			      clearInterval(timerId);
+			    }
+
+			    clockStart();
+			  </script>
+		</div>
+	</body>
+</html>
